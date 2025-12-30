@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HERO */
+.hero {
+  background: #0f172a;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #000;
+}
+
+.secondary {
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 0;
+  background: #f8fafc;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p, .how ol, .results p {
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* CONTACT */
+.contact {
+  background: #f1f5f9;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
